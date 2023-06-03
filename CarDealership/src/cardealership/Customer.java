@@ -36,6 +36,10 @@ public class Customer
         this.ownedCars = ownedCars;
     }
 
+    public Customer() {
+        
+    }
+
     
     // Getters
     public String getFullName() 

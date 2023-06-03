@@ -51,6 +51,10 @@ public class Car
         this.features = features;
         this.ownershipHistory = ownershipHistory;
     }
+
+    public Car() {
+        
+    }
     
     // Getters
     public String getMakeandModel() 

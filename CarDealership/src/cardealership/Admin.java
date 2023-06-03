@@ -12,9 +12,7 @@ import java.util.ArrayList;
  */
 public class Admin extends Customer
 {
-    
     public Admin(String fullName, String userName, String passWord, String address, String phoneNumber, String email, String identificationDocument, String insuranceProviders, ArrayList<String> ownedCars) {
         super(fullName, userName, passWord, address, phoneNumber, email, identificationDocument, insuranceProviders, ownedCars);
     }
-    
 }
